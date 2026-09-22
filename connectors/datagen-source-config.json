@@ -1,0 +1,17 @@
+{
+  "config": {
+    "cloud.environment": "prod",
+    "cloud.provider": "aws",
+    "connector.class": "DatagenSource",
+    "kafka.api.key": "****************",
+    "kafka.api.secret": "****************",
+    "kafka.auth.mode": "KAFKA_API_KEY",
+    "kafka.endpoint": "SASL_SSL://pkc-921jm.us-east-2.aws.confluent.cloud:9092",
+    "kafka.region": "us-east-2",
+    "kafka.topic": "Orders",
+    "name": "DatagenSourceConnector_0",
+    "output.data.format": "AVRO",
+    "quickstart": "ORDERS",
+    "tasks.max": "1"
+  }
+}
