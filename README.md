@@ -181,8 +181,9 @@ Sanitized config examples are in [`connectors/`](./connectors).
 
 The full pipeline — Datagen connector → `Orders` topic → Flink processing → `vip_alerts` / `order_spikes` topics → HTTP Sink connector → Slack — is visualized end-to-end in Confluent Cloud's Stream Lineage view.
 
-> Screenshot: `<img width="1423" height="758" alt="image" src="https://github.com/user-attachments/assets/0baf0df5-5617-4a00-9285-8a400925ecba" />
-`
+> Screenshot:
+<img width="1423" height="758" alt="image" src="https://github.com/user-attachments/assets/0baf0df5-5617-4a00-9285-8a400925ecba" />
+
 
 ---
 
